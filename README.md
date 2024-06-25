@@ -15,7 +15,7 @@ Status: retired
 
 1.) Clone this repository
 ```bash
-git clone https://github.com/adobong-sunog/gradebook-test
+git clone https://github.com/adobong-sunog/walmart-gradebook
 cd gradebook-test
 ```  
 2.) Install required libraries
