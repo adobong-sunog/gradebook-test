@@ -1,0 +1,48 @@
+ADMIN USERNAME/PW: admin/admin123
+DEFAULT STUDENTS/TEACHERS USERNAME: st1, st2, st3, st4, st5, tr1, tr2, tr3, tr4 PASSWORD: 12345
+MODULES USED: sqlite3, pandas, tkinter, hashlib
+
+FOR CONSISTENCY:
+- Use camel casing on functions (e.g: toAdd(), functionExample())
+- Use underscore as space for variables(e.g: variable_1, variable_2)
+
+----- TODO -----
+USER AUTH (COMPLETE)
+- Authenticate username and password (done)
+- Hash passwords (done)
+- Detect if user that logged in is a student, teacher or admin (done)
+
+ADMIN (COMPLETE)
+- Create admin menu (done)
+- Create admin ability to create users (done)
+- Create admin ability to delete users (done)
+
+TEACHER (COMPLETE)
+- Create teacher menu (done)
+- Create ability to upload student grades using excel file (done)
+
+STUDENT (COMPLETE)
+- Create student menu (done)
+- Create display where students can view their grades (done)
+- Create database filter to only display grades based on the student's ID(username in the database) (done)
+
+DATABASE (COMPLETE)
+- Learn how to match studentID from records.db (student grades) with username from users.db (users) to be able to filter grades based on student ID("username" in the database) (done)
+
+EXTRAS (COMPLETE)
+- Improve menus (done)
+- Improve login layout (done)
+- Improve upload file layout for teacher (done)
+- Improve admin layout (done)
+
+FINAL ADDITIONS (COMPLETE)
+- Add student and teacher or give admin ability to reset teacher and user password (done)
+- Add teacher ability to delete grades they input (MUST ADD TEACHER PARAMETER TO GRADES DATABASE) (done)
+- Add sorting methods (bubble, exchange, selection) for student to filter their grades (e.g: highest to lowest / lowest to highest) (done)
+- Separate students from users.db and change users.db to faculty.db (done)
+- Add "yearLevel" property for students (done)
+
+CURRENT KNOWN BUGS
+- Typing wrong password for admin shows error in the console (fixed)
+- After uploading grades then checking student's grades again in teacher menu will cause the program to not show student's grades
+- Student's grades don't show up in the subject list in teacher menu
